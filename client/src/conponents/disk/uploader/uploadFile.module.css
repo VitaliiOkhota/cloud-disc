@@ -1,0 +1,38 @@
+.uploadFile {
+    background-color: #E9E6E6;
+    border-radius: 8px;
+    margin: 5px 0;
+    padding: 5px 10px;
+}
+
+.uploadFile__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.uploadFile__name {
+
+}
+
+.uploadFile__remove {
+
+}
+
+.uploadFile__progress {
+    height: 1rem;
+    border-radius: 8px;
+    background-color: #566885;
+    display: flex;
+    margin: 3px 0;
+}
+
+.uploadFile__bar {
+    background-color: green;
+    border-radius: 8px;
+}
+
+.uploadFile__percent {
+    color: #E9E6E6;
+    left: 50%;
+    position: absolute;
+}
